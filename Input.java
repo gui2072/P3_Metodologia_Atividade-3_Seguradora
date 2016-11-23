@@ -60,7 +60,7 @@ public class Input{
     }
 
     static String stringNumLimited(String titulo, String erro, String erro2, String mensagem, int stringEnd){
-        String retorno = "9999999999999";
+        String retorno = "99999999999999999";
 
         do {
             Console.clear();
@@ -78,8 +78,7 @@ public class Input{
         return retorno;
     }
 
-    static int intPrint(String titulo, String erro, String mensagem){
-        int in = 0;
+    static int intPrint(String titulo, String erro, String mensagem, int in){
         do {
             Console.clear();
             System.out.printf("\n  %s\n", titulo);
@@ -99,6 +98,8 @@ public class Input{
             System.out.printf("\n  %s\n", titulo);
             if (in == -666){
                 System.out.printf("\n  %s", erro);
+            } else {
+                System.out.println();
             }
             System.out.printf("\n  %s: ", mensagem);
             in = Input.doubleErro();

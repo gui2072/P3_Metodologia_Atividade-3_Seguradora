@@ -2,10 +2,10 @@ package seguradora;
 
 public class Main {
     public static void main(String[] args) {
-        int op;
+        int op = 0;
 
         do {
-            op = Input.intPrint("Seguradora\n\n  1 - op\n  2 - op\n  3 - op\n\n  0 - Sair", "Opção invalida, tente novamente", "Digite uma opção");
+            op = Input.intPrint("Seguradora\n\n  1 - op\n  2 - op\n  3 - op\n\n  0 - Sair", "Opção invalida, tente novamente", "Digite uma opção", op);
 
             switch (op) {
                 case 0:
@@ -16,6 +16,10 @@ public class Main {
                     cliente.cadastrar();
                     break;
                 case 2:
+                    ContratoResidencial contrato = new ContratoResidencial();
+                    contrato.cadastrar();
+                    contrato.printContrato();
+                    Input.confirmacaoBoolean("\n  Deseja confirmar o contrato:", "Sim", "Não", false);
                     break;
                 case 3:
                     break;

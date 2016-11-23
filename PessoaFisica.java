@@ -37,7 +37,7 @@ public class PessoaFisica{
 	}
 
     public void cadastrar() {
-        this.nome = Input.stringLettersLimited("Cadastro cliente", "Tente novamente, utilize apenas letras", "Digite o nome", 35);
-        this.cpf = Format.cpf(Input.stringNumLimited("Cadastro cliente", "Tente novamente, utilize apenas numeros", "Tente novamente, o CPF e composto por 11 digitos", "Digite o CPF", 11));
+        this.nome = Input.stringLettersLimited("Contrato residencial", "Tente novamente, utilize apenas letras", "Digite o nome", 35);
+        this.cpf = Format.cpf(Input.stringNumLimited("Contrato residencial", "Tente novamente, utilize apenas numeros", "Tente novamente, o CPF e composto por 11 digitos", "Digite o CPF", 11));
     }
 }
