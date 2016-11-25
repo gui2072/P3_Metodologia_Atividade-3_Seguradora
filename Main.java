@@ -38,8 +38,8 @@ public class Main {
                       }
                     }else {
                       ContratoEmpresarial contratoE = new ContratoEmpresarial();
-                      //contratoE.cadastrar();
-                      //contratoE.printContrato();
+                      contratoE.cadastrar();
+                      contratoE.printContrato();
                       if(Input.confirmacaoBoolean("\n  Deseja confirmar o contrato:", "Sim", "Não", false)){
                         listContratoE.add(contratoE);
                       }
