@@ -46,4 +46,100 @@ public class ContratoEmpresarial {
 
 
     }
+
+	/**
+	* Returns value of cliente
+	* @return
+	*/
+	public PessoaJuridica getCliente() {
+		return cliente;
+	}
+
+	/**
+	* Sets new value of cliente
+	* @param
+	*/
+	public void setCliente(PessoaJuridica cliente) {
+		this.cliente = cliente;
+	}
+
+	/**
+	* Returns value of numeroFuncionarios
+	* @return
+	*/
+	public int getNumeroFuncionarios() {
+		return numeroFuncionarios;
+	}
+
+	/**
+	* Sets new value of numeroFuncionarios
+	* @param
+	*/
+	public void setNumeroFuncionarios(int numeroFuncionarios) {
+		this.numeroFuncionarios = numeroFuncionarios;
+	}
+
+	/**
+	* Returns value of ramo
+	* @return
+	*/
+	public int getRamo() {
+		return ramo;
+	}
+
+	/**
+	* Sets new value of ramo
+	* @param
+	*/
+	public void setRamo(int ramo) {
+		this.ramo = ramo;
+	}
+
+	/**
+	* Returns value of numeroVisitas
+	* @return
+	*/
+	public int getNumeroVisitas() {
+		return numeroVisitas;
+	}
+
+	/**
+	* Sets new value of numeroVisitas
+	* @param
+	*/
+	public void setNumeroVisitas(int numeroVisitas) {
+		this.numeroVisitas = numeroVisitas;
+	}
+
+	/**
+	* Returns value of valorImovel
+	* @return
+	*/
+	public double getValorImovel() {
+		return valorImovel;
+	}
+
+	/**
+	* Sets new value of valorImovel
+	* @param
+	*/
+	public void setValorImovel(double valorImovel) {
+		this.valorImovel = valorImovel;
+	}
+
+	/**
+	* Returns value of valorSeguro
+	* @return
+	*/
+	public double getValorSeguro() {
+		return valorSeguro;
+	}
+
+	/**
+	* Sets new value of valorSeguro
+	* @param
+	*/
+	public void setValorSeguro(double valorSeguro) {
+		this.valorSeguro = valorSeguro;
+	}
 }
